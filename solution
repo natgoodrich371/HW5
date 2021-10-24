@@ -64,3 +64,6 @@ plt.figure()
 plt.imshow(wordcloud, interpolation="bilinear")
 plt.axis("off")
 plt.show()
+
+df.to_csv('/drive/My Drive/Colab Notebooks/HW52.csv')
+
